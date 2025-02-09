@@ -1,0 +1,48 @@
+kind: workload
+metadata:
+  namespace: default
+  name: mario
+description: a workload created through argoCD
+apiVersion: cpln.io/v1
+org: doron-test1
+gvc: my-cat
+tags: 
+  name: doron
+  age: "55"
+spec:
+  type: serverless
+  containers:
+    - name: mario
+      cpu: 50m
+      image: doron/mario
+      inheritEnv: false
+      memory: 128Mi
+      ports:
+        - number: 8080
+          protocol: http
+  defaultOptions:
+    autoscaling:
+      maxConcurrency: 1000
+      maxScale: 3
+      metric: concurrency
+      minScale: 1
+      scaleToZeroDelay: 300
+      target: 100
+    capacityAI: true
+    debug: false
+    suspend: false
+    timeoutSeconds: 5
+  firewallConfig:
+    external:
+      inboundAllowCIDR:
+        - 0.0.0.0/0
+      inboundBlockedCIDR: []
+      outboundAllowCIDR: []
+      outboundAllowHostname: []
+      outboundAllowPort: []
+      outboundBlockedCIDR: []
+    internal:
+      inboundAllowType: none
+      inboundAllowWorkload: []
+  
+  supportDynamicTags: false
