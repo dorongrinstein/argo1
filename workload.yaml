@@ -8,7 +8,7 @@ org: doron-test1
 gvc: my-cat
 tags: 
   name: doron
-  age: "old man"
+  age: "pretty old man"
   height: 6'1"ft
 spec:
   type: serverless
