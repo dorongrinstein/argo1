@@ -8,7 +8,7 @@ org: doron-test1
 gvc: my-cat
 tags: 
   name: doron
-  age: "57"
+  age: "55"
 spec:
   type: serverless
   containers:
