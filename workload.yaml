@@ -15,7 +15,7 @@ spec:
   containers:
     - name: mario
       cpu: 50m
-      image: doron/tetros
+      image: doron/tetris
       inheritEnv: false
       memory: 128Mi
       ports:
