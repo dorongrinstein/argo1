@@ -9,7 +9,7 @@ gvc: my-cat
 tags: 
   name: doron
   age: "55"
-  height: 6ft
+  height: 6'1"ft
 spec:
   type: serverless
   containers:
