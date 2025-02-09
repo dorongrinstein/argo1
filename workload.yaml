@@ -2,7 +2,7 @@ kind: workload
 metadata:
   namespace: default
   name: mario
-description: a workload created through argoCD
+description: a workload created through argoCD haha
 apiVersion: cpln.io/v1
 org: doron-test1
 gvc: my-cat
