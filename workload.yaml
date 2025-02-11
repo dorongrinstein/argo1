@@ -8,7 +8,7 @@ org: doron-test1
 gvc: my-cat
 tags: 
   name: doron
-  age: "pretty old man"
+  age: "spring chicken"
   height: 6'1"ft
 spec:
   type: serverless
