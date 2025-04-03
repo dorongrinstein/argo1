@@ -10,6 +10,7 @@ tags:
   name: doron
   age: "spring chicken"
   height: 6'1"ft
+  location: "santa rosa valley"
 spec:
   type: serverless
   containers:
