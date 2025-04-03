@@ -8,10 +8,8 @@ org: doron-test1
 gvc: my-cat
 tags: 
   name: doron
-  age: "spring chicken"
-  height: 6'1"ft
-  location: "santa rosa valley"
-  food: "falafel"
+  age: "too old"
+  
 spec:
   type: serverless
   containers:
