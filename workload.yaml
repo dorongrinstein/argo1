@@ -11,6 +11,7 @@ tags:
   age: "spring chicken"
   height: 6'1"ft
   location: "santa rosa valley"
+  food: "tacos and guacamole"
 spec:
   type: serverless
   containers:
