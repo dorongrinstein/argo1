@@ -8,7 +8,7 @@ org: doron-test1
 gvc: my-cat
 tags: 
   name: doron
-  age: "too old"
+  age: "55"
   
   
 spec:
@@ -16,11 +16,11 @@ spec:
   containers:
     - name: mario
       cpu: 50m
-      image: doron/tetris
+      image: doron/mario
       inheritEnv: false
       memory: 128Mi
       ports:
-        - number: 80
+        - number: 8080
           protocol: http
   defaultOptions:
     autoscaling:
