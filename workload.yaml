@@ -9,7 +9,7 @@ gvc: my-cat
 tags: 
   name: doron
   age: "too old"
-  religion: "Jewish"
+  
   
 spec:
   type: serverless
