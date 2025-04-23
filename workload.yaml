@@ -17,11 +17,11 @@ spec:
   containers:
     - name: mario
       cpu: 50m
-      image: doron/mario
+      image: doron/tetris
       inheritEnv: false
       memory: 128Mi
       ports:
-        - number: 8080
+        - number: 80
           protocol: http
   defaultOptions:
     autoscaling:
