@@ -9,6 +9,7 @@ gvc: my-cat
 tags: 
   name: doron
   age: "55"
+  "location": "los angeles"
   
   
 spec:
