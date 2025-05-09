@@ -2,13 +2,12 @@ kind: workload
 metadata:
   namespace: default
   name: mario
-description: a demo for sam
+description: a simple demo
 apiVersion: cpln.io/v1
 org: doron-test1
 gvc: my-cat
 tags: 
   name: doron
-  age: "55"
   "location": "los angeles"
   
   
