@@ -2,7 +2,7 @@ kind: workload
 metadata:
   namespace: default
   name: mario
-description: a simple demo
+description: a simple Demo
 apiVersion: cpln.io/v1
 org: doron-test1
 gvc: my-cat
