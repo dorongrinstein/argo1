@@ -27,7 +27,7 @@ spec:
         httpGet:
           httpHeaders: []
           path: /
-          port: 8080
+          port: 80
           scheme: HTTP
         initialDelaySeconds: 0
         periodSeconds: 10
