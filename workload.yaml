@@ -16,18 +16,18 @@ spec:
   containers:
     - name: mario
       cpu: 50m
-      image: doron/tetris
+      image: doron/mario
       inheritEnv: false
       memory: 128Mi
       ports:
-        - number: 80
+        - number: 8080
           protocol: http
       readinessProbe:
         failureThreshold: 3
         httpGet:
           httpHeaders: []
           path: /
-          port: 80
+          port: 8080
           scheme: HTTP
         initialDelaySeconds: 0
         periodSeconds: 10
